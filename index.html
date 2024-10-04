@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <script>
+        let p1=document.getElementById("p1")
+        let p2=document.getElementById("p2")
+        window.alert("welcome to the page")
+        p2.innerText=prompt("please enter your name here")
+        // location.assign("https://en.wikipedia.org/wiki/GitHub")
+        let x=confirm("are you sure to navigate this page")
+        if(x==true){
+            location.assign("https://en.wikipedia.org/wiki/GitHub")
+
+        }
+
+    </script>
+</body>
+</html>
